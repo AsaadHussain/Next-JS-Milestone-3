@@ -5,9 +5,9 @@ export default function ContactUs() {
     return (
         <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-white font-[sans-serif] my-4 lg:my-8 md:my-8 xl:my-8">
             <div>
-                <h1 className="text-gray-800 text-3xl font-extrabold">Let's Talk</h1>
+                <h1 className="text-gray-800 text-3xl font-extrabold">Let&apos;s Talk</h1>
                 <p className="text-sm text-gray-500 mt-4">
-                    Have some big idea or brand to develop and need help? Then reach out we'd
+                    Have some big idea or brand to develop and need help? Then reach out we&apos;d
                     love to hear about your project and provide help.
                 </p>
                 <div className="mt-12">
