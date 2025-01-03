@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 export default function Home() {
@@ -16,14 +17,18 @@ export default function Home() {
             </p>
             <div className="mt-12 flex max-sm:flex-col sm:justify-center lg:justify-start gap-4">
               <div className="rounded-md shadow">
-                <button className="w-full flex items-center justify-center px-8 py-3 text-base tracking-wide rounded-md text-indigo-600 bg-white hover:text-indigo-500 hover:bg-indigo-100 transition duration-150 ease-in-out">
-                  Get Started
-                </button>
+                <Link href='/blog'>
+                  <button className="w-full flex items-center justify-center px-8 py-3 text-base tracking-wide rounded-md text-indigo-600 bg-white hover:text-indigo-500 hover:bg-indigo-100 transition duration-150 ease-in-out">
+                    Read Blogs
+                  </button>
+                </Link>
               </div>
               <div>
-                <button className="w-full flex items-center justify-center px-8 py-3 text-base tracking-wide rounded-md text-white bg-orange-400 hover:bg-orange-300 transition duration-150 ease-in-out">
-                  Learn More
-                </button>
+                <Link href='/about'>
+                  <button className="w-full flex items-center justify-center px-8 py-3 text-base tracking-wide rounded-md text-white bg-orange-400 hover:bg-orange-300 transition duration-150 ease-in-out">
+                    About Us
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
